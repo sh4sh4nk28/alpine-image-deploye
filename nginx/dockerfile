@@ -1,0 +1,5 @@
+FROM nginx:alpine
+LABEL maintainer="Shashank"
+COPY index.htmnl /usr/share/nginx/html
+WORKDIR /apps
+
